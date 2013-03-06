@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>EGG Energy</title>
+    <title>Beholder is watching you...</title>
     <style>body.requiring { visibility: hidden; }</style>
     <link rel='shortcut icon' type='image/png' href="static/images/favicon.png" />
     <link rel='stylesheet' type='text/css' href="static/styles/main.css" media='screen' />
@@ -9,8 +9,10 @@
 </head>
 
 <body class="requiring">
-    <video width="640" height="480" autoplay></video>
-    <img class="color" width="160" height="120" src="" />
-    <img class="gray" width="160" height="120" src="" />
+    <div class="video">
+        <video autoplay height="480" width="640"></video>
+        <canvas height="480" width="640" ></canvas>
+    </div>
+    <ul></ul>
 </body>
 </html>
