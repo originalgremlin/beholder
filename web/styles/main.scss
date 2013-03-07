@@ -1,3 +1,13 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+
+    a.startRecording {
+        color: red;
+        cursor: pointer;
+    }
+}
+
 div.video {
     height: 480px;
     margin: 0 auto;
@@ -16,6 +26,12 @@ div.video {
         height: 100%;
         width: 100%;
     }
+}
+
+audio {
+    display: block;
+    margin: 5px auto;
+    width: 320px;
 }
 
 ul {
